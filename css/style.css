@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #cff6fc;
+}
+
+h1 {
+    font-size: 28px; /* Increased font size for headings */
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+label {
+    font-size: 20px; /* Increased font size for labels */
+    margin-bottom: 10px;
+    color: #161616;
+}
+
+select {
+    font-size: 18px; /* Increased font size for selects */
+    padding: 12px; /* Increased padding for selects */
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8cfcf;
+    color: #333;
+}
+
+#time {
+    font-size: 20px; /* Increased font size for time display */
+    margin-top: 20px;
+    text-align: center;
+    color: #222020;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    label {
+        font-size: 18px;
+    }
+
+    select {
+        font-size: 16px;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    #time {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 22px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    select {
+        font-size: 16px;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    #time {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 320px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    select {
+        font-size: 14px;
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+
+    #time {
+        font-size: 14px;
+    }
+}
